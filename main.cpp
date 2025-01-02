@@ -1,9 +1,9 @@
 float Qsqrt(float n) {
-    long i;
+    int32_t i;
     float y;
 
     y = n;
-    i = * (long *) &y;
+    i = * (int32_t *) &y;
     i = 0x1FBD1DF5 + (i >> 1);
     y = * (float *) &i;
 
