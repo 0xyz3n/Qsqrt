@@ -2,7 +2,7 @@
 Quick Square Root algorithm (hobby project) inspired from Fast Inverse Square Root from Quake 3 devs.
 
 TODO :
-- [ ] Remove divisions
+- [ ] Remove divisions (if possible)
 - [ ] 64bit version
 
 
